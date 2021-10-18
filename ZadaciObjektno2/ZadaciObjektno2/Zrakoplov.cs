@@ -11,11 +11,11 @@ namespace ZadaciObjektno2
         private string Naziv; 
         private double SnagaMotora; 
         private int DosegLeta; 
-        public Zrakoplov(string s, double d, int i) 
+        public Zrakoplov(string n, double s, int d) 
         { 
-            Naziv = s; 
-            SnagaMotora = d; 
-            DosegLeta = i; 
+            Naziv = n; 
+            SnagaMotora = s; 
+            DosegLeta = d; 
         }
     }
 }
